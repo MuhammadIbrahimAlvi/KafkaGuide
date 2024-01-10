@@ -1,2 +1,2 @@
 # KafkaGuide
-## Kafka Topics
+1.) Kafka Topics
