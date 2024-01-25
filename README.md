@@ -38,4 +38,23 @@ Topics are split into <b><ins>Partitions</ins></b>.
     You can have as many Partitions as you want as per Topic.
   </li>
 </ol>
+3.) <b> Kafka Producers </b> <br/>
+<ul>
+<li>
+  Messages in each Partitions are ordered.
+</li>
+  <li>
+    Producers write data to the Topics (which are made up of partitions).
+  </li>
+  <li>
+    Producers know to which partition to write to (and which Kafka broker has it).
+  </li>
+    <li>
+    In case of Kafka broker failures, Producers will automatically recover.
+  </li>
+</ul>
+
+<img width="974" alt="image" src="https://github.com/MuhammadIbrahimAlvi/KafkaGuide/assets/65025980/d2f33272-09b6-4bb3-979e-9a065b24ef38">
+
+
 
